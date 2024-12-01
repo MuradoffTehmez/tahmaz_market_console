@@ -16,7 +16,7 @@ class Program
     static bool isAdmin = false;
     static void Main()
     {
-        Console.WriteLine("Xoş gəlmisiniz!");
+        Console.WriteLine("Xoş gəlmisiniz!!");
         Console.Write("Giriş tipini seçin (admin/satıcı): ");
         string girisTipi = Console.ReadLine();
         if (girisTipi.ToLower() == "admin")
