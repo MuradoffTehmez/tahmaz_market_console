@@ -11,7 +11,7 @@ class Product
 class Program
 {
 
-    static List<Product> mehsullar = new List<Product>();
+    static readonly List<Product> mehsullar = new List<Product>();
     static decimal balans = 1000;
     static bool isAdmin = false;
     static void Main()
